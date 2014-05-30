@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat-User</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="assets/libs/todc/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/libs/todc/css/todc-bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/libs/fa/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+<body>
+    
+    <div class="n-chat-bar">
+        <div class="n-chat-bar-wrapper">
+            <div class="n-chat-box">
+                <div class="n-chat-box-bar">
+                    <div class="n-chat-title">Online Chat</div>
+                    <div class="n-chat-tools">
+                        <span class="n-chat-btn n-btn-minmax"></span>
+                    </div>
+                    <div class="n-clearfix"></div>
+                </div>
+                <div class="n-chat-box-body">
+                    <div class="n-chat-msg scrollable"></div>
+                </div>
+                <div class="n-chat-box-input">
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="assets/jquery/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/libs/todc/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/chat.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            Chat.init();
+        });
+    </script>
+    
+</body>
+</html>
